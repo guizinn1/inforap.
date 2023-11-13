@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik';
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 3817px;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 108px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    list-style: none;
+    
+}
+
+nav img{
+   margin-left: 60px;
+}
+
+.nav-list{
+    margin-left: -80px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 455px;
+    color: #4C5D73;    
+}
+
+nav li {  
+    text-decoration: none;
+    list-style: none;    
+}
+
+.entrar {   
+    margin-right: 200px;
+    margin-left: -200px;
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #304F8C;
+    background-color: white;
+    font-size: 16px;
+    color: #304F8C;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav a{    
+    font-size: 16px;
+    color: #304F8C;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: -80px;
+    margin-right: -200px;
+}
+
+.main{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control-text{
+    margin-right: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 532px;
+    height: 112px;
+    color: #111826;
+    margin-top: 50px;
+    
+}
+
+.main h2{
+    font-size: 16px;
+    font-weight: 300;
+    width: 527px;
+    height: 48px;
+    color: #4C5D73;
+    
+}
+
+.imagem {
+    width: 432px;
+    height: 349px;
+    margin-left: 760px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    display: flex;
+
+}
+
+.conhecer{
+    background-color: #304F8C;
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+
+.main-list {
+    list-style: none;
+    display: flex;
+    margin-left: 50px;
+    width: 1770px;
+    height: 124px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.solu{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 190px;
+    height: 59px;
+}
+
+.text{
+    margin-bottom: 55px;
+    margin-left: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-list h1{
+    width: 92px;
+    height:48px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.main-list h2{
+    width: 71px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.plat {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 164px;
+    height: 59px;
+}
+
+.foc{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    height: 59px;
+}
+
+.seg{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 180px;
+    height: 59px;
+}
+
+
+
+.servicos{
+    margin: 50px;
+}
+
+.servicos h2{
+    width: 88px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C5D73;
+    letter-spacing: 2px;
+}
+
+.servicos h1{
+    width: 826px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #111826;
+}
+
+.servicos h3{
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #111826;
+}
+
+.servicos h4{
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4C5D73;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 268px;
+    height: 208px;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.055);
+}
+
+.card img{
+    width: 67px;
+    height: 67px;
+    margin-bottom: 30px;
+}
+
+.list-servicos{
+    display: inline-flex;
+}
+
+
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sobre h2{
+    width: 110px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C5D73;
+    letter-spacing: 2px;
+    margin-left: 70px;
+    padding-top: 20px;
+}
+
+.sobre h1{
+    width: 684px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #111826;
+    margin-left: 70px;
+}
+
+.sobre h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C5D73;
+    margin-bottom: 40px;
+}
+
+.sobre img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-sobre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 676px;
+    height: 278px;
+    
+}
+
+.img-text{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 1876px;
+    height: 678px;
+}
+
+.cases{
+    color: #304F8C;
+    background-color: white;
+    border-radius: 8px;
+    width: 214px;
+    height: 48px;
+    border: 2px solid #304F8C;
+    font-size: 15px;
+    font-weight: bold;
+}
